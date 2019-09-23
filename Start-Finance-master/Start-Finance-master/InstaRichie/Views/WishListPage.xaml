@@ -104,7 +104,10 @@
         </controls:PageHeader>
 
         <!--Page Conetents start here-->
-        <Pivot>
+        <Pivot RenderTransformOrigin="0.5,0.5">
+            <Pivot.RenderTransform>
+                <CompositeTransform SkewX="7.125" TranslateX="2.375"/>
+            </Pivot.RenderTransform>
             <RelativePanel.Below>pageHeader</RelativePanel.Below>
             <RelativePanel.Above>pageFooter</RelativePanel.Above>
             <PivotItem Header="Add WishList">
