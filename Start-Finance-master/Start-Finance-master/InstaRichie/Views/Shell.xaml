@@ -86,6 +86,17 @@
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
 
+            <!--  Shopping List button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:ShoppingListPage" 
+                                          AutomationProperties.Name="Jerry"
+                                          >
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="Bullets" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Shopping List" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
 
             <!--  Wish List button  -->
             <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:WishListPage" 
