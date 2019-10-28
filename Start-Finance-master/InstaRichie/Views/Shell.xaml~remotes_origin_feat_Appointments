@@ -38,18 +38,6 @@
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
 
-            <!--  Appointments button  -->
-            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:AppointmentsPage" 
-                                          AutomationProperties.Name="Jerry"
-                                          >
-                <StackPanel Orientation="Horizontal">
-                    <SymbolIcon Width="48" Height="48"
-                                Symbol="Add" />
-                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
-                               Text="Add Appointment" />
-                </StackPanel>
-            </Controls:HamburgerButtonInfo>
-            
             <!--  Transaction button  -->
             <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:TransactionPage" 
                                           AutomationProperties.Name="Jerry"
@@ -97,40 +85,7 @@
                                Text="Accounts" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
-            <!--  client details button  -->
-            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:ClientDetailsPage" 
-                                          AutomationProperties.Name="Jerry"
-                                          >
-                <StackPanel Orientation="Horizontal">
-                    <SymbolIcon Width="48" Height="48"
-                		Symbol="Bullets" />
-                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
-                               Text=" Client Details" />
-                </StackPanel>
-            </Controls:HamburgerButtonInfo>
 
-            <!--  Personal Info button  -->
-            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:PersonalInfoPage" 
-                                          AutomationProperties.Name="Jerry"
-                                          >
-                <StackPanel Orientation="Horizontal">
-                    <SymbolIcon Width="48" Height="48"
-                		Symbol="AddFriend" />
-                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
-                               Text="Personal Info" />
-                </StackPanel>
-            </Controls:HamburgerButtonInfo>
-            <!--  Shopping List button  -->
-            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:ShoppingListPage" 
-                                          AutomationProperties.Name="Jerry"
-                                          >
-                <StackPanel Orientation="Horizontal">
-                    <SymbolIcon Width="48" Height="48"
-                		Symbol="Bullets" />
-                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
-                               Text="Shopping List" />
-                </StackPanel>
-            </Controls:HamburgerButtonInfo>
 
             <!--  Wish List button  -->
             <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:WishListPage" 
@@ -143,6 +98,17 @@
                                Text="WishList" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
+
+            <!-- Appointments Button -->
+            <Controls:HamburgerButtonInfo ClearHistory="true" PageType="views:AppointmentsPage" AutomationProperties.Name="Jerry">
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="Calendar" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Appointments" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
+
         </Controls:HamburgerMenu.PrimaryButtons>
 
         <Controls:HamburgerMenu.SecondaryButtons>
